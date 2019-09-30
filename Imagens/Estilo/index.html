@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Etec Trajano Camargo</title>
+    <link href="estilo.css" rel="stylesheet">
+    <link href="http://www.mysteralegacy.com/about/?gclid=EAIaIQobChMIuK6rkZ3o5AIVjIiRCh25nwSAEAEYASAAEgLlg_D_BwE">
+    <style>
+    *{
+    margin: 0px;
+    padding: opx;
+}
+body{
+    /* Abaixo, configuramos o atributo linear-gradient da propriedade background */
+    /* Sua direção é para baixo e suas cores utilizam a conotação rgba */
+    background: linear-gradient(to bottom, rgba(229, 229, 229, 1) 10%,rgba(255,255,255,1) 100%);
+    font-family: Raleway, sans-serif, serif; /* Configuração das fontes utilizadas */
+    /* A fonte Raleway utiliuza um link do Google Fonts já especificado no header */
+    color: #575757; /* Cor utilizada para todas as tags */
+}
+/* Cabeçalho */
+header{
+    background-color: #494949; /* Cor do plano de fundo */
+    height: 135px; /* Altura */
+    background-image: url(Imagens/Trajano_predio_branco.png); /* Imagem de fundo */
+    background-repeat: no-repeat; /* Propriedade para não repetir a imagem */
+    background-position: top left; /* Propriedade para posicionar no topo à esquerda */
+}
+
+/* Título do cabeçalho */
+header h1{ /* Nesta sintaxe, estamos selecionando um h1 que esteja dentro de um header */
+    color: white;
+    size: 48px;
+    float: right; /* Flutuar para direita */
+    position: absolute; /* Posicionamento absoluto, ao utilizá-lo, podemos usar as propriedades */
+    top: 50px; /* top, bottom, left e right */
+    right: 100px; 
+}
+
+/* Menu de navegação */
+nav{
+    background-color: #960000;
+    margin-top: 1px;
+    padding: 5px;
+}
+/* Item da lista dentro de uma ul, dentro de um nav */
+nav ul li{
+    color: white;
+    display: inline; /* Modificar a exibição da lista para horizontal */
+    margin-right: 20px; /* Margem direita com 20 pixels */ 
+}
+/* Efeito para mudar a cor do link, quando o cursor estiver sobre ele */
+li a:hover{
+    color: #ff7171;
+    height: 25px;
+}
+/* Classe para links, quando dentro do menu */
+a.menu{
+    text-decoration: none; /* Remover o sublinhado de um link */
+    color: white
+}
+
+/* Conteiner principal */
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 600px; /* Tamanho fixo para altura - 600 pixels */
+    padding: 10 px;
+}
+
+/* Seção generica - Permite especializar as classes esquerda e direita */
+section{
+    height: 500px;
+    background-color: white;
+    box-shadow: 5px 5px 5px gray; /* Efeito de sombra nas Tags */
+    padding: 10px;
+    margin-top: 30px; /* Margem de */
+    border-radius: 10px;
+}
+/* Seção especializada da generica, a esquerda */
+.esquerda{
+    width: 25%;
+    float: left;
+}
+/* Seção especializada da generica, a direita */
+.direita{
+    width: 65%;
+    float: right;
+}
+
+h2, article h2{
+    border-bottom: 1px solid gray; 
+    margin: 5px;
+    color: #960000;
+}
+
+/* Formatação de Artigos */
+article{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px dotted gray;
+    box-shadow: 10px 5px 10px gray;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+
+/* Rodapé */
+footer{
+    background-color: #dbdbdb;
+    height: 300px;
+}
+
+div.tabela{
+    display: table;
+}
+
+div.celula{
+    border: 1px dotted #d0c6c6;
+    display: table-cell;
+    padding: 10px;
+    width: 33%;
+    color: #960000;
+}
+
+/* Mudança da cor padrão dos links para cinza */
+a{
+    color: #636262;
+}
+
+/* Mudança do efeito do cursor sobre o mouse */
+a:hover{
+    color: #960000;
+}
+    </style>
+</head>
+<body>
+    <header> 
+
+    </header>
+    <nav> 
+        <ul>
+            <li><a class="menu" href="#">Home </a></li>
+            <li><a class="menu" href="#">A escola </a></li>
+            <li><a class="menu" href="#">Curso Informática </a></li>
+            <li><a class="menu" href="#">Curso Administração </a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2> ETEC Trajano Camargo </h2>
+            <section class="esquerda">
+                    <h2> Destaques</h2>
+                    <p><a href=" # "> Vestibulinho</a></p>
+                    <p><a href=" # "> Centro Paula Souza</a></p>
+            </section>
+        </section>
+        <section class="direita">
+            <article>
+                <h2> Meu primeiro artigo</h2>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum tenetur rerum provident praesentium at quibusdam deserunt repudiandae exercitationem tempora quaerat nobis laudantium saepe cumque unde, quia recusandae laborum accusamus enim!
+            </article>
+            <article>
+                <h2> Meu segundo artigo</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eos officiis odit, sunt expedita assumenda optio deserunt maxime temporibus! Exercitationem laudantium quam aut consequatur, non ipsam molestiae tempora sapiente quia.
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
