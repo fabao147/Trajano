@@ -14,7 +14,7 @@ body{
 header{
     background-color: #494949; /* Cor do plano de fundo */
     height: 135px; /* Altura */
-    background-image: url(Imagens/Trajano_predio_branco.png); /* Imagem de fundo */
+    background-image: url(Imagens/trajano_predio_branco.png); /* Imagem de fundo */
     background-repeat: no-repeat; /* Propriedade para não repetir a imagem */
     background-position: top left; /* Propriedade para posicionar no topo à esquerda */
 }
